@@ -1,3 +1,18 @@
+# How to deploy simple React.js App on Github Pages;
+
+## Steps:
+1. create react app
+##
+  npx create-react-app my-react-project-name
+##
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
