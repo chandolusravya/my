@@ -27,6 +27,7 @@ Add, predeploy and deploy under scripts section
 "deploy": "npm run build && gh-pages -d build"
 ```
 Check for gh-pages version under dependencies section
+
 5. Finally publish to Github:
 ## Initialize your git repo if you have not already done.
 ```bash
