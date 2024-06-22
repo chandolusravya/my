@@ -72,7 +72,7 @@ settings on your repo > pages > select gh-pages under source, root directory(unt
 
 
 
-##---------------------------------------------------------
+## ---------------------------------------------------------
 
 # Getting Started with Create React App
 
