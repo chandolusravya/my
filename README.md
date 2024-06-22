@@ -5,7 +5,56 @@
 ```bash
 npm create-react-app my-app-project-name
 ```
+```bash
+cd my-app-project-name
+```
+2. Test/ run your application
+```bash
+npm start
+```
+3. configure github pages. Initialize gh-pages first
+```bash
+npm install --save gh-pages
+```
+4. add properties to package.json file in your react app.
+Add, homepage after version
+```bash
+"homepage": "https://chandolusravya.github.io/my-app-project-name"
+```
+Add, predeploy and deploy under scripts section
+```bash
+"predeploy": "npm run build",
+"deploy": "npm run build && gh-pages -d build"
+```
+Check for gh-pages version under dependencies section
+5. Finally publish to Github:
+## Initialize your git repo if you have not already done.
+```bash
+git init
+git add .
+git commit -m "initial commit"
+```
+## create a repo on github and donot check initialize this repo with a README
 
+## Link your local repository to github repo
+```bash
+git remote add origin https://github.com/chandolusravya/githubreponame.git
+
+git push -u origin master
+```
+## Finally Deploy
+```bash
+npm run deploy
+```
+{ if it's not getting deployed, manually build and then deploy.
+  npm run build  
+  npm run deploy
+}
+
+6. Now got to
+   ## settings on your repo > pages > select gh-pages under source, root directory(until we have any directory named 'docs') > save
+
+7. After few minutes your site should be accessible at the specified URL in "homepage" field of your package.json file of your application.
 
 
 
