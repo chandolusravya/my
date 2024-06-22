@@ -61,7 +61,7 @@ settings on your repo > pages > select gh-pages under source, root directory(unt
 
 
 
-
+(To check: you should always have your index files under gh-pages branch )
 
 
 
