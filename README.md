@@ -40,8 +40,10 @@ git commit -m "initial commit"
 ```bash
 git remote add origin https://github.com/chandolusravya/githubreponame.git
 
-git push -u origin master
+git push -u origin main
 ```
+{ main/master depending on your default branch name }
+
 ## Finally Deploy
 ```bash
 npm run deploy
