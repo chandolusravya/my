@@ -53,17 +53,26 @@ npm run deploy
   npm run deploy
 }
 
-6. Now got to
-   ## settings on your repo > pages > select gh-pages under source, root directory(until we have any directory named 'docs') > save
+6. Now got to:
+   
+settings on your repo > pages > select gh-pages under source, root directory(until we have any directory named 'docs') > save
 
-7. After few minutes your site should be accessible at the specified URL in "homepage" field of your package.json file of your application.
-
-
-
+8. After few minutes your site should be accessible at the specified URL in "homepage" field of your package.json file of your application.
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+##---------------------------------------------------------
 
 # Getting Started with Create React App
 
