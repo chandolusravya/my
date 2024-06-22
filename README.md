@@ -1,10 +1,11 @@
-# How to deploy simple React.js App on Github Pages;
+# How to deploy simple React.js App on Github Pages:
 
 ## Steps:
 1. create react app
-##
-  npx create-react-app my-react-project-name
-##
+```bash
+npm create-react-app my-app-project-name
+```
+
 
 
 
